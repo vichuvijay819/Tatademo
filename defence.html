@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 700px;
+            margin-top: 90px;
+        }
+        .carousel-control-next{
+            background-color: rgb(125, 232, 236);
+            height: 50px;
+            width: 50px;
+            border-radius: 30px;
+            margin-top: 250px;
+        }
+        .carousel-control-prev{
+            background-color: rgb(125, 232, 236);
+            height: 50px;
+            width: 50px;
+            border-radius: 30px;
+            margin-top: 250px;  
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand" href="#"><b><span style="color: rgb(251, 112, 7);">Luxuary</span><span style="color: rgb(6, 97, 146);">car</span></b></a> -->
+          <img src="images/Tata-Logo.png" alt="TATA" width="100" height="60">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="car.html">Cars</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="bus.html">Truck & Bus</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="emi.html">EMI Calculator</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="defence.html">Defence</a>
+              </li>
+            </ul>
+            <a href="registation2.html">
+            <button class="btn btn-outline-success me-2" type="button"  style="margin-left: 200px;">LogIn</button>
+          </a>
+          </div>
+        </div>
+      </nav>
+    <div class="container">
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="images/Screenshot 2023-08-23 003023.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/Screenshot 2023-08-23 003044.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Screenshot 2023-08-23 003106.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Screenshot 2023-08-23 003146.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Screenshot 2023-08-23 003310.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+</body>
+</html>
