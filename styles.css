@@ -1,0 +1,361 @@
+/* body {
+    background-color: #100e17;
+    font-family: 'Open Sans', sans-serif;
+  } */
+  
+  .container {
+    position: absolute;
+    height: 500px;
+    width: 600px;
+    top: 60px;
+    /* left: calc(50% - 300px); */
+    display: flex;
+  }
+  
+  .card {
+    display: flex;
+    height: 500px;
+    width: 600px;
+    background-color: #f6f5f7;
+    border-radius: 10px;
+    /* box-shadow: -1rem 0 3rem #000; */
+  /*   margin-left: -50px; */
+    transition: 0.5s ease-out;
+    position: relative;
+    left: 0px;
+  }
+  
+  
+  .card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+  }
+  
+  /* .card:hover ~ .card {
+    position: relative;
+    left: 50px;
+    transition: 0.4s ease-out;
+  } */
+  
+  .title {
+    color: rgb(10, 10, 10);
+    font-weight: 300;
+    width: 700px;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+  }
+  
+ 
+  .emptybar {
+    background-color: #f9fafa;
+    width: 100%;
+    height: 100%;
+  }
+   
+
+   
+  
+  .card:hover .filledbar {
+    width: 120px;
+    transition: 0.4s ease-out;
+  }
+  
+ 
+  .stroke {
+    stroke: white;
+    stroke-dasharray: 360;
+    stroke-dashoffset: 360;
+    transition: 0.6s ease-out;
+  }
+  .abtp{
+    width: 90%;
+    text-align: center;
+    padding-left: 150px;
+    font-size: 18px;
+    background-color: #fff;
+    font-family: 'uni_neueregular';
+  }
+  .btn-sub{
+    background-color: #3969bb;
+    color: #fff;
+    border-radius: 4px;
+  }
+  .btn-sub:hover{
+    transition: .5s;
+    background-color: #0c3479;
+  }
+  .header{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 40px;
+  }
+  
+  span{
+    color: #3969bb;
+  }
+  .btn-ch{
+    background-color: #0d6efd;
+    color: #fff;
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+  }
+  .btn-ch:hover{
+    transition: .7s;
+    background-color: #045fe8;
+  }
+  .car-h1{
+    margin-top: 80px;
+    text-align: center;
+    color:#0d6efd;
+  }
+@media screen and (max_width:768px){
+    .img-home{
+      width: 50px;
+      text-align: center;
+      padding-top: 30px;
+      font-size: 3rem;
+    }
+    .abtp{
+      width: 150%;
+      text-align: center;
+      padding-left: 240px;
+      font-size: 25px;
+      background-color: #fff;
+      font-family: 'uni_neueregular';
+    }
+    .header{      
+        justify-content: center;
+        
+    }
+}
+
+
+/* Emi Styles */
+.body-emi {
+            font-family: Arial, sans-serif;
+            padding-top: 30px;
+            background-color:#fff;
+        }
+        .container-emi {
+            max-width: 400px;
+            margin: 0 auto;
+            margin-top: 70px;
+            border-top: 50px;
+            text-align: center;
+            box-shadow: 0px 0px 3px 3px #4086f0;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 50px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+            /* background-color: #7da6ff; */
+        }
+        .emi-h1{
+          color: #4086f0;
+        }
+        input[type="number"], select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+
+        }
+        #emiResult {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        #emiForm{
+            /* padding-right: 15px; */
+            /* width: 310px; */
+            align-items: center;
+            
+        }
+        .loanAmount{
+            padding-left: 45px;
+            border-radius: 10px;
+            width: 300px;
+            
+            
+        }
+        .interestRate{
+            margin-top: 20px;
+            padding-left: 45px;
+            border-radius: 10px;
+        }
+        .loanTenure{
+            margin-top: 20px;
+            padding-left: 45px;
+            border-radius: 10px; 
+            
+        }
+        .btn-calc{
+            transition: 0.8s;
+            background: #609cf7;
+            border-radius: 5px;
+            margin-top: 10px;
+            color: #f6f5f7;
+            border: #4086f0;
+        }
+        .btn-calc:hover{
+            background: #1c63cd;
+            ;
+        } 
+
+
+
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}    */
+
+/*------Login-------*/
+
+.login-body{
+  background-color: #c0cee9;
+  /* max-width: 100%; */
+  /* height: 750px; */
+  /* position: absolute; */
+}
+
+.login-container{
+  background-color: #fff;
+  /* position: relative; */
+  width: 300px;
+  height: 200px;
+  padding: 30px;
+  border-radius: 15px;
+  justify-content: center;
+  margin-left: 550px;
+  margin-top: 200px;
+  box-shadow: rgba(0, 0, 0, 1.8);
+  padding-bottom: 50px;
+}
+
+h2{
+  color: #25334f;
+  text-align: center;
+  padding-top: 0;
+}
+
+
+.log-input{
+  width: 200px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #c0cee9;
+  margin-left: 40px;
+  padding-left: 10px;
+  
+}
+
+.btn-sub{
+  width: 215px;
+  height: 25px;
+  margin-top: 20px;
+  background-color: #c0cee9;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  transition: all .7s;
+  margin-left: 50px;
+  margin-left: 40px;
+}
+
+.btn-sub:hover{
+  background-color: transparent;
+  border: 1px solid #25334f;
+  color: #25334f;
+}
+
+/*--contact css---*/
+.ContactUSForm{
+  background-color: #c0cee9;
+  width: 400px;
+  height: 500px;
+  padding: 30px;
+  border-radius: 15px;
+  justify-content: center;
+  margin-left: 550px;
+  margin-top: 100px;
+  box-shadow: rgba(0, 0, 0, 1.8);
+  padding-bottom: 50px;
+}
+.contact-h3{
+  text-align: center;
+}
+.inp-contact{
+  width: 180px;
+  height: 35px;
+  border-radius: 8px;
+  border: 1px solid #c0cee9;
+  margin-left: 75px;
+  padding-left: 10px;
+  
+}
+#Phone{
+  width: 180px;
+  height: 35px;
+  border-radius: 8px;
+  border: 1px solid #c0cee9;
+  margin-left: 75px;
+  padding-left: 10px;
+  
+}
+
+#textArea{
+  padding-left: 20px;
+  margin-left: 45px;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+#SubmitButton{
+  margin-top: 20px;
+  width: 80px;
+  margin-left: 135px;
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  transition: .7s;
+  
+}
+#SubmitButton:hover{
+  background-color: #3969bb;
+  color: #fff;
+}
+.alert{
+  background-color: #0c3479;
+  width: 330px;
+  height: 50px;
+  margin-left: 10px;
+  display: none;
+}
+
+.link{
+    position: absolute;
+    text-decoration: none;
+    display: flex;
+    margin-top: 70px;
+    margin-left: 550px;
+  }
+
+  .link i{
+    padding: 20px;
+    color: #4065B8;
+    transition: all .7s;
+    font-size: 36px;
+  }
+
+  /* .link i:hover{
+    background: #4065B8;
+    opacity: .8;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  } */
