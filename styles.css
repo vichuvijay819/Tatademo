@@ -11,18 +11,43 @@
     /* left: calc(50% - 300px); */
     display: flex;
   }
-  
+  .card1{
+    /* padding-left: 40px; */
+    /* border-left: 1000px; */
+    /* position: absolute; */
+    /* left: 40px; */
+    display: flex;
+    gap: 80px;
+    width: 22rem;
+  }
+  .udiv{
+    display: flex;
+    margin-left: 180px;
+    margin-top: 20px;
+  }
+  h1{
+    text-align: center;
+    align-content: center;
+    justify-content: center;margin-top: 90px;
+  }
+  /* h1{
+    text-align: center;
+  } */
   .card {
     display: flex;
-    height: 500px;
-    width: 600px;
+    height: 400px;
+    /* width: 600px; */
+    width: 18rem;
+    margin-left: 40px;
     background-color: #f6f5f7;
     border-radius: 10px;
+    /* padding-left: 40px; */
     /* box-shadow: -1rem 0 3rem #000; */
   /*   margin-left: -50px; */
     transition: 0.5s ease-out;
     position: relative;
-    left: 0px;
+    /* left: 100px; */
+    /* gap: 40px; */
   }
   
   
@@ -111,12 +136,18 @@
     text-align: center;
     color:#0d6efd;
   }
+  .img-container{
+    align-items: center;
+  }
 @media screen and (max_width:768px){
     .img-home{
       width: 50px;
       text-align: center;
       padding-top: 30px;
       font-size: 3rem;
+    }
+    .img-container{
+      width: 200px;
     }
     .abtp{
       width: 150%;
@@ -131,7 +162,12 @@
         
     }
 }
-
+@media screen and (min_width:768px) {
+  .img-container{
+    width: 100%;
+  }
+  
+}
 
 /* Emi Styles */
 .body-emi {
@@ -217,17 +253,17 @@
 /*------Login-------*/
 
 .login-body{
-  background-color: #c0cee9;
+  background-color: #ffffff;
   /* max-width: 100%; */
   /* height: 750px; */
   /* position: absolute; */
 }
 
 .login-container{
-  background-color: #fff;
+  background-color: #c9e9ff;
   /* position: relative; */
   width: 300px;
-  height: 200px;
+  height: 250px;
   padding: 30px;
   border-radius: 15px;
   justify-content: center;
