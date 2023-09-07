@@ -14,7 +14,6 @@
 <body class="body-emi">
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
-          <!-- <a class="navbar-brand" href="#"><b><span style="color: rgb(251, 112, 7);">Luxuary</span><span style="color: rgb(6, 97, 146);">car</span></b></a> -->
           <img src="images/Tata-Logo.png" alt="TATA" width="100" height="60">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -50,13 +49,13 @@
         <h1 class="emi-h1">EMI Calculator</h1><br>    
         <form id="emiForm">
             
-            <input type="number" class="loanAmount" required placeholder="Loan Amount">
+            <input type="number" id="loanAmount" required placeholder="Loan Amount">
             
             
-            <input type="number" class="interestRate" required placeholder="Annual Interest Rate (%)">
+            <input type="number" id="interestRate" required placeholder="Annual Interest Rate (%)">
             
             
-            <input type="number" class="loanTenure" placeholder="Loan Tenure" required >
+            <input type="number" id="loanTenure" placeholder="Loan Tenure" required >
             
             <input type="button" class="btn-calc" value="Calculate EMI" onclick="calculateEMI()">
         </form>
